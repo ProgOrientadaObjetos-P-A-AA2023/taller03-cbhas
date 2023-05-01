@@ -2,13 +2,15 @@ package paquetedos;
 
 public class AdministrarInstituciones {
 
-    private String nombre;
-    private String tipoIns;
-    private int numAlumnos;
-    private int numDocentes;
-    private int numSedes;
-    private double gastoEstudiante;
-    private double presupuesto;
+    private String nombre,
+            tipoIns;
+
+    private int numAlumnos,
+            numDocentes,
+            numSedes;
+
+    private double gastoEstudiante,
+            presupuesto;
 
     public void establecerNombre(String n) {
         nombre = n;
@@ -67,3 +69,5 @@ public class AdministrarInstituciones {
     }
 
 }
+
+// @cbhas

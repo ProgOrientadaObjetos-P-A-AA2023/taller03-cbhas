@@ -2,10 +2,10 @@ package paquetedos;
 
 public class EquivalenteHora {
 
-    private double horas;
-    private double minutos;
-    private double segundos;
-    private double dias;
+    private double horas,
+            minutos,
+            segundos,
+            dias;
 
     public void establecerHoras(double h) {
         horas = h;
